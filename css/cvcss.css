@@ -1,0 +1,111 @@
+#title{
+     color: ivory;
+}
+
+h1{
+    font-family: 'Katibeh', cursive;
+}
+
+h2{
+    font-family: 'Katibeh', cursive;
+}
+
+p{
+    font-family: 'Mako', sans-serif;
+}
+
+.rectangle {
+    height: 30rem;
+    width: 30rem;
+    background-color: #00474a;
+    position: relative;
+    z-index: 1;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    opacity: 0.8;
+    margin: 20rem 2rem 2rem 60%;
+}
+
+.insider{
+      margin: 40% 35% 25% 20%;
+      position: absolute;
+      z-index: 3;
+      width: 20rem;
+      color: rgb(255, 255, 255);
+  }
+  
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+}
+
+.rectangle2 {
+    position: absolute;
+    z-index: 1;
+}
+
+#alittleabout{
+    background-color: ivory;
+    margin: 2rem 0 2rem 0;
+}
+
+.container{
+    width: 100%;
+}
+
+#abouter{
+    margin: 5% 0 15% 0;
+}
+
+#Main_Skills{
+
+    background-color: #c9d6df;
+    border: double 6px black;
+}
+
+#Language_skills{
+   
+    background-color: #c9d6df;
+    border: double 6px black;
+}
+
+#headinggs{
+    font-family: 'Katibeh', cursive;
+}
+
+.image {
+    width: 22rem;
+    height: 17rem;
+    border-radius: 15%;
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:  #ffffff;
+}
+  
+.container:hover .overlay {
+    opacity: 1;
+}
+  
+.text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
